@@ -1,0 +1,25 @@
+{
+  "name": "oop-love-story",
+  "version": "1.0.0",
+  "private": true,
+  "description": "用 Remotion 制作的面向对象科普短片：《没有对象？new 一个！》",
+  "scripts": {
+    "dev": "remotion studio",
+    "music": "node scripts/make-audio.mjs",
+    "render": "remotion render OOPLove out/oop-love.mp4",
+    "still": "remotion still OOPLove out/still.png",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@remotion/bundler": "^4.0.535",
+    "@remotion/renderer": "^4.0.535",
+    "@types/react": "19.1.0",
+    "typescript": "5.8.3"
+  }
+}

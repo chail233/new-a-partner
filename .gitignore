@@ -1,0 +1,8 @@
+node_modules/
+out/
+# 由 npm run music 生成，体积大
+public/bgm.wav
+public/sfx/
+# 字体从系统拷贝（见 README），体积大
+public/fonts/
+.DS_Store
